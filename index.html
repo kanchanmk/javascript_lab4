@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+        <article class="snackSelection">
+            <p id="total" class="total">Total:  <span id="amount" class="amount"> $0.00</span></p>
+            <button class="button" data-price="2">LIME COLA $2.00</button>
+            <button class="button" data-price="3">SALTED PEANUTS $3.00</button>
+            <button class="button" data-price="4">CHOCOLATE BAR $4.00</button>
+            <button class="button" data-price="6">FRUIT GUMMIES $6.00</button>
+        </article>
+
+        <article>
+            <form id="coinForm" class="coinForm">
+                <label for="numConins" class="label">How many?</label>
+                <input type="number" name="numCoins" id="numConins">
+                <label for="coinType" class="label">Which coin?</label>
+                <select name="coinType" id="coinType" >
+                    <option value="Penny" selected>Penny</option>
+                    <option value="Nickel">Nickel</option>
+                    <option value="Dime">Dime</option>
+                    <option value="Quarter">Quarter</option>
+                </select>
+                <button class="button">Make Money</button>
+                <section class="coinContainer"></section>
+            </form>
+        </article>
+
+        <article>
+            <div class="lightbulb"> Light Bulb</div>
+            <button class="btn switchOn">On</button>
+            <button class="btn switchOff">Off</button>
+            <button class="btn toggle">Toggle</button>
+            <button class="btn end">End</button>
+        </article>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

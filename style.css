@@ -1,0 +1,44 @@
+article {
+	margin: 20px;
+}
+.coinContainer {
+	display: flex;
+}
+.coin {
+	border-radius: 50%;
+	border: 1px solid black;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Penny {
+	height: 50px;
+	width: 50px;
+	background-color: orange;
+}
+.Dime {
+	height: 60px;
+	width: 60px;
+}
+.Nickel {
+	height: 75px;
+	width: 75px;
+}
+.Quarter {
+	height: 110px;
+	width: 110px;
+}
+/* light bulb */
+
+.lightbulb {
+	height: 40px;
+	width: 100px;
+	background-color: gray;
+	color: white;
+}
+
+.switchedOn {
+	background-color: yellow;
+}
